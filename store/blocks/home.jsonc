@@ -16,7 +16,7 @@
       "textPosition": "RIGHT"
     }
   },
-  "info-card#button-right": {
+  "info-card#button-right": { 
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
