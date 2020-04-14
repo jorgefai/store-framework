@@ -3,6 +3,7 @@
       "blocks": [
         "header-layout.desktop",
         "header-layout.mobile"
+       
       ]
     },
     "header.full": {
@@ -15,7 +16,8 @@
     "header-layout.desktop": {
       "children": [
         "header-row#notification",
-        "header-row#main"
+        "header-row#main",
+        "header-row#menu"
       ]
     },
     "header-row#main": {
@@ -37,7 +39,8 @@
       "children": [
         "header-row#notification",
         "header-row#main-mobile",
-        "header-row#search"
+        "header-row#search",
+        "header-row#main-mobile"
       ]
     },"header-row#notification": {
         "children": [
@@ -82,5 +85,11 @@
           "text": "**Free Shipping on orders over $50**",
           "textPosition": "CENTER"
         }
-      }
+      },
+      "header-row#menu": 
+        { "children": [ 
+            "header-spacer", 
+            "vtex.menu@2.x:menu#categories", 
+            "header-spacer" ] 
+        }
   }
