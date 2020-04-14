@@ -9,7 +9,7 @@
         "children": ["vtex.menu@2.x:menu#major"]
     },
     "flex-layout.col#img": {
-        "children": ["image#menu"],
+        "children": ["image#menu","rich-text#header"],
         "props":{
             "paddingRight": 4,
             "horizontalAlign": "right"
