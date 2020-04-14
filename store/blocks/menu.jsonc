@@ -41,11 +41,5 @@
         
         }
     ,"vtex.menu@2.x:submenu#small":{ "children":[ "vtex.menu@2.x:menu#small" ] }
-    ,"vtex.menu@2.x:submenu#electronics":{ "children":[ "vtex.menu@2.x:menu#electronics" ] },
-    "flex-layout.row#major": {
-        "children": [
-          "flex-layout.col#menu",
-          "flex-layout.col#img"
-        ]
-      }
+    ,"vtex.menu@2.x:submenu#electronics":{ "children":[ "vtex.menu@2.x:menu#electronics" ] }
 }
