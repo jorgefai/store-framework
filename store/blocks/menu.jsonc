@@ -7,7 +7,10 @@
         "props":{ 
             "orientation": "horizontal" }
     },
-
+    "vtex.menu@2.x:submenu#major": { 
+        "children": [ 
+            "flex-layout.row#major" ]
+    },
     "vtex.menu@2.x:menu#major":{
         "children": [ 
             "menu-item#refrigerators",
@@ -34,12 +37,6 @@
         ], 
         "props":{ 
             "orientation": "vertical" }
-    },"vtex.menu@2.x:submenu#major":
-        { "children":[ "flex-layout.row#major" ],
-            "props":{ 
-                "orientation": "horizontal" } 
-        
-        }
-    ,"vtex.menu@2.x:submenu#small":{ "children":[ "vtex.menu@2.x:menu#small" ] }
+    },"vtex.menu@2.x:submenu#small":{ "children":[ "vtex.menu@2.x:menu#small" ] }
     ,"vtex.menu@2.x:submenu#electronics":{ "children":[ "vtex.menu@2.x:menu#electronics" ] }
 }
